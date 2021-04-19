@@ -1,6 +1,6 @@
 package uaslp.ingenieria.labs.list;
 
-public class LinkedList <T>{
+public class LinkedList <T> implements List<T>{
     private Node<T> head;
     private Node<T> tail;
     private int size;
